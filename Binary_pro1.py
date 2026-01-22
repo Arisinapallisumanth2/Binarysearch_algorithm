@@ -14,5 +14,7 @@ def Binary(arr,target):
                 start = mid + 1
             else:
                 end = mid - 1
+
+    
     return False
 print(Binary(arr,target))
